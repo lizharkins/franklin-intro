@@ -1,4 +1,8 @@
 /* block specific CSS goes here */
+:root {
+  --true-white: #fff;
+  --accent-color: orange;
+}
 
 main .hero-container>div {
   max-width: unset;
@@ -18,8 +22,7 @@ main .hero h1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  /* color: white; */
-  color: magenta;
+  color: var(--accent-color);
 }
 
 main .hero picture {
